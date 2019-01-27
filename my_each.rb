@@ -1,5 +1,5 @@
 def my_each(array)
-  if block_given?
+  block_given?
     i = 0 
     while array.length > i 
     yield array[i]
